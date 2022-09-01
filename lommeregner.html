@@ -15,15 +15,18 @@
 </nav>
 <body>
     <form>
-        Value 1: <input type="text" id="value 1">
-        Value 2: <input type="text" id="value 2">
+        Value1: <input type="text" id="value1">
+        Value2: <input type="text" id="value2">
         <select id="operator">
             <option value="Plus">Add</option>
-            <option value="Minus">Add</option>
-            <option value="Dividere">Add</option>
-            <option value="Gange">Add</option>
+            <option value="Minus">Minus</option>
+            <option value="Divide">Dividere</option>
+            <option value="Multiply">Gange</option>
         </select>
-        <button type="Knap" name="Knap">Udregn</button>
+        <button type="button" onclick="calc()">Udregn</button>
        </form>
+
+       <div id="result"></div>
 </body>
+<script src="main.js"></script>
 </html>
